@@ -45,7 +45,7 @@ def counting_sort_com_contagem(vetor):
     return vetor_saida, instrucoes
 
 
-# demostração
+# demonstração
 if __name__ == "__main__":
     vetor_desordenado = [9, 5, 2, 4, 2, 8, 5]
     vetor_ordenado, total_passos = counting_sort_com_contagem(vetor_desordenado)
